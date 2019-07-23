@@ -1,2 +1,2 @@
 
-https://k98p.github.io/tictac
+https://k98p.github.io/TicTac
