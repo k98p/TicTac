@@ -3,8 +3,9 @@ td{
     height: 100px;
     width: 100px;
     text-align: center;
-    font-family: sans-serif;
-    font-size: 80px;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 70px;
     cursor: pointer;
 }
 
@@ -19,22 +20,32 @@ table{
 }
 
 
-/*to remove outer outer borders, use the following:
-table tr: first-child td{
-    border-top: 0;
-}
 
-table tr: last-child td{
-    border-top: 0;
-}
-*/
 
 #result{
-    display: none;
+    
     width: 200px;
-    top: 120px;
-    background-color: rgb(100,0,0 ,0.8);
+    top: 375px;
+    
     position: absolute;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -50px;
+}
+
+#reset{
+    width: 100px;
+    top: 425px;
+    
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;   
+}
+
+#link{
+    width: 200px;
+    top: 460px;
+    
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;   
 }
